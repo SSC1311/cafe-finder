@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cafe Finder — Leaflet + Overpass</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h1>🍵 Cafe Finder</h1>
+    <div class="small">Find cafes near you using OpenStreetMap data (Overpass).</div>
+
+    <label>Search address (optional)</label>
+    <div style="display:flex;gap:8px;align-items:center">
+      <input id="addressInput" type="text" placeholder="Type city or street, then press Find" />
+      <button id="findBtn">Find</button>
+    </div>
+
+    <label>Radius (meters)</label>
+    <input id="radiusInput" type="number" value="1500" min="200" step="100" />
+
+    <label style="margin-top:8px">Actions</label>
+    <div class="controls">
+      <button id="locateBtn">Use My Location</button>
+      <button id="clearBtn" class="secondary">Clear Results</button>
+    </div>
+
+    <div class="places" id="places"></div>
+    <div class="footer">Note: Data from OpenStreetMap via Overpass API. For demos only.</div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
