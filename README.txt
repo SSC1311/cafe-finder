@@ -1,17 +1,35 @@
-Cafe Finder — Leaflet + Overpass Starter
+☕ Cafe Finder
 
-Files:
-- index.html
-- styles.css
-- app.js
+A simple Cafe Finder Web App built with HTML, CSS, and JavaScript.
+This project helps users discover nearby cafes with a clean and responsive interface.
 
-How to run:
-1. Save the folder somewhere local.
-2. Serve it with a static server (recommended):
-   - npx serve .   (or)
-   - npx http-server -c-1
-3. Open the page in your browser and allow location access, or type an address and press Find.
+🌐 🌐 **Live Demo:** [Click here to try Cafe Finder](https://SSC1311.github.io/cafe-finder/)
 
-Notes:
-- Uses Overpass API (OpenStreetMap) for cafe data and Nominatim for geocoding.
-- For production use, respect rate limits and consider hosting your own services or using a paid Places API.
+🚀 Features
+📍 Interactive UI to explore cafes
+🔍 Search functionality for cafes
+🎨 Responsive design with custom CSS
+⚡ Built using pure JavaScript
+
+🛠️ Tech Stack
+HTML5 – structure and layout
+CSS3 – styling and responsiveness
+JavaScript (Vanilla JS) – interactivity and logic
+
+📂 Project Structure
+├── index.html      # Main entry point
+├── styles.css      # Styling
+├── app.js          # JavaScript logic
+└── README.md       # Project documentation
+
+💡 Future Improvements
+Add geolocation support to auto-detect nearby cafes
+Integrate Google Maps API for real map-based cafe search
+Add a backend with a Cafe database
+
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
+
+📜 License
+This project is licensed under the MIT License – feel free to use and modify.
+
