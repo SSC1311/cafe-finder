@@ -3,7 +3,7 @@
 A simple Cafe Finder Web App built with HTML, CSS, and JavaScript.
 This project helps users discover nearby cafes with a clean and responsive interface.
 
-🌐 🌐 **Live Demo:** [Click here to try Cafe Finder](https://SSC1311.github.io/cafe-finder/)
+🌐 🌐 **Live Demo:** (https://SSC1311.github.io/cafe-finder/)
 
 🚀 Features
 📍 Interactive UI to explore cafes
